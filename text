@@ -1,0 +1,65 @@
+arts-visuals-website/
+│
+├── index.html
+├── css/
+│   ├── base.css          # Reset, variables, global styles
+│   ├── layout.css        # Grid, containers, sections
+│   ├── components.css    # Buttons, cards, forms
+│   ├── navigation.css    # Navbar, mobile menu
+│   ├── sections.css      # Hero, about, services, etc.
+│   └── responsive.css    # Media queries
+├── js/
+│   ├── config.js         # Constants and configuration
+│   ├── theme.js          # Theme toggle functionality
+│   ├── navigation.js     # Navigation and scroll behavior
+│   ├── slider.js         # Image slider functionality
+│   ├── forms.js          # Form handling and validation
+│   ├── animations.js     # Scroll animations and interactions
+│   └── main.js           # Main initialization
+└── images/
+    └── [all image files]
+
+
+arts-visuals-co/
+├── index.html
+├── css/
+│   ├── style.css
+│   ├── components/
+│   │   ├── header.css
+│   │   ├── navigation.css
+│   │   ├── hero.css
+│   │   ├── slider.css
+│   │   ├── features.css
+│   │   ├── about.css
+│   │   ├── services.css
+│   │   ├── portfolio.css
+│   │   ├── pricing.css
+│   │   ├── contact.css
+│   │   └── footer.css
+│   └── utilities/
+│       ├── variables.css
+│       ├── base.css
+│       └── animations.css
+├── js/
+│   ├── main.js
+│   ├── theme.js
+│   ├── navigation.js
+│   ├── slider.js
+│   └── animations.js
+└── images/
+    ├── logo.jpeg
+    ├── mountain.jpg
+    ├── ocean.jpeg
+    ├── forest.jpg
+    ├── desert.jpg
+    ├── aurora.png
+    ├── wedding.jpg
+    ├── portrait.jpg
+    ├── commercial.jpg
+    ├── about-studio.jpg
+    ├── wedding-gallery.jpg
+    ├── portrait-gallery.jpg
+    ├── commercial-gallery.jpg
+    ├── event-gallery.jpg
+    ├── landscape-gallery.jpg
+    └── fine-art-gallery.jpg

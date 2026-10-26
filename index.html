@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arts & Visuals Co. | Professional Photography & Visual Arts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="main-nav" id="mainNav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="images/logo.jpeg" alt="Arts & Visuals Co.">
+                <span>Arts & Visuals Co.</span>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigation Links -->
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="nav-cta">Book a Session</button>
+            </div>
+        </div>
+        
+        <!-- Mobile Overlay -->
+        <div class="nav-overlay" id="navOverlay"></div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <!-- Logo Section -->
+            <div class="logo-section" data-aos="fade-up">
+                <img src="images/logo.jpeg" alt="Arts & Visuals Co." class="logo">
+                <div class="logo-text">
+                    <h1>Arts & Visuals Co.</h1>
+                    <p class="tagline">Professional Photography & Visual Arts Services</p>
+                </div>
+            </div>
+
+            <header data-aos="fade-up" data-aos-delay="200">
+                <p class="subtitle">Capturing life's most precious moments with artistic vision and professional expertise. From weddings to commercial shoots, we bring your vision to life.</p>
+            </header>
+            
+            <div class="slider-container" data-aos="zoom-in" data-aos-delay="400">
+                <div class="slider-wrapper">
+                    <div class="slide active">
+                        <img src="images/mountain.jpg" alt="Mountain Landscape">
+                        <div class="slide-content">
+                            <h2>Mountain Serenity</h2>
+                            <p>Experience the breathtaking beauty of untouched nature where time stands still.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/ocean.jpeg" alt="Beach Sunset">
+                        <div class="slide-content">
+                            <h2>Ocean Whispers</h2>
+                            <p>Feel the calming rhythm of waves as the sun paints the sky in hues of gold and crimson.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/forest.jpg" alt="Forest Path">
+                        <div class="slide-content">
+                            <h2>Forest Journey</h2>
+                            <p>Discover hidden paths through ancient forests where every step reveals new wonders.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/desert.jpg" alt="Desert Adventure">
+                        <div class="slide-content">
+                            <h2>Desert Majesty</h2>
+                            <p>Witness the stark beauty and timeless silence of vast deserts under endless skies.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/aurora.png" alt="Northern Lights">
+                        <div class="slide-content">
+                            <h2>Aurora Dreams</h2>
+                            <p>Marvel at the celestial dance of lights in the frozen wilderness under starry skies.</p>
+                        </div>
+                    </div>
+                    <!-- New Business-themed slides -->
+                    <div class="slide">
+                        <img src="images/wedding.jpg" alt="Wedding Photography">
+                        <div class="slide-content">
+                            <h2>Wedding Elegance</h2>
+                            <p>Capturing the most important day of your life with artistry and emotion.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/portrait.jpg" alt="Professional Portraits">
+                        <div class="slide-content">
+                            <h2>Professional Portraits</h2>
+                            <p>Showcasing personality and professionalism in every portrait session.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/commercial.jpg" alt="Commercial Photography">
+                        <div class="slide-content">
+                            <h2>Commercial Excellence</h2>
+                            <p>Elevating brands with stunning visual content that tells your story.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <div class="slider-btn prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="slider-btn next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slider-indicators">
+                <div class="dots-container"></div>
+                <div class="auto-play-btn" title="Toggle Auto Play">
+                    <i class="fas fa-pause"></i>
+                </div>
+            </div>
+            
+            <div class="features">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-camera-retro"></i>
+                    <h3>Professional Photography</h3>
+                    <p>High-quality photography services for events, portraits, and commercial needs</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-video"></i>
+                    <h3>Videography</h3>
+                    <p>Cinematic video production to capture your special moments in motion</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-edit"></i>
+                    <h3>Photo Editing</h3>
+                    <p>Professional post-processing and retouching to perfect your images</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content" data-aos="fade-up">
+                <div class="about-text">
+                    <h2>About Our Studio</h2>
+                    <p>Founded in 2015, Arts & Visuals Co. has been dedicated to capturing life's most precious moments with artistic vision and technical excellence. Our team of professional photographers and visual artists bring passion and creativity to every project.</p>
+                    <p>We believe that every moment tells a story, and our mission is to preserve those stories through stunning visual artistry. From intimate weddings to large corporate events, we approach each project with the same level of dedication and attention to detail.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Awards Won</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="images/about-studio.jpg" alt="Our Studio" style="width: 100%; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="services-section" data-aos="fade-up">
+                <h2>Our Professional Services</h2>
+                <p>We offer a comprehensive range of photography and visual arts services to meet all your needs. Whether you're planning a wedding, need professional headshots, or require commercial photography for your business, we've got you covered.</p>
+                
+                <div class="features">
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-ring"></i>
+                        <h3>Wedding Photography</h3>
+                        <p>Capture your special day with beautiful, timeless wedding photography that tells your unique love story.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Portrait Sessions</h3>
+                        <p>Professional portrait photography for individuals, families, and corporate headshots.</p>
+                    </div>
+                    <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-building"></i>
+                        <h3>Commercial Photography</h3>
+                        <p>High-quality commercial photography for businesses, products, and branding needs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="gallery-section" data-aos="fade-up">
+                <h2>Our Portfolio</h2>
+                <p class="subtitle">Explore our diverse range of photography and visual arts projects</p>
+                
+                <div class="gallery-grid">
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                        <img src="images/wedding-gallery.jpg" alt="Wedding Photography">
+                        <div class="gallery-overlay">
+                            <h3>Wedding Photography</h3>
+                            <p>Elegant and emotional wedding moments</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                        <img src="images/portrait-gallery.jpg" alt="Portrait Sessions">
+                        <div class="gallery-overlay">
+                            <h3>Portrait Sessions</h3>
+                            <p>Professional and creative portraits</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                        <img src="images/commercial-gallery.jpg" alt="Commercial Work">
+                        <div class="gallery-overlay">
+                            <h3>Commercial Work</h3>
+                            <p>Brand and product photography</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                        <img src="images/event-gallery.jpg" alt="Event Coverage">
+                        <div class="gallery-overlay">
+                            <h3>Event Coverage</h3>
+                            <p>Corporate and social events</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                        <img src="images/landscape-gallery.jpg" alt="Landscape Photography">
+                        <div class="gallery-overlay">
+                            <h3>Landscape Photography</h3>
+                            <p>Breathtaking natural scenery</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-aos="zoom-in" data-aos-delay="600">
+                        <img src="images/fine-art-gallery.jpg" alt="Fine Art Photography">
+                        <div class="gallery-overlay">
+                            <h3>Fine Art Photography</h3>
+                            <p>Creative and conceptual artwork</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing">
+        <div class="container">
+            <div class="pricing-section" data-aos="fade-up">
+                <h2>Our Pricing</h2>
+                <p class="subtitle">Flexible packages to meet your photography needs</p>
+                
+                <div class="pricing-cards">
+                    <div class="pricing-card" data-aos="flip-left" data-aos-delay="100">
+                        <h3>Essential</h3>
+                        <div class="price">$299</div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 2-hour photoshoot</li>
+                            <li><i class="fas fa-check"></i> 25 edited digital images</li>
+                            <li><i class="fas fa-check"></i> Online gallery</li>
+                            <li><i class="fas fa-times"></i> Print release</li>
+                            <li><i class="fas fa-times"></i> Additional retouching</li>
+                        </ul>
+                        <button class="service-btn">Select Plan</button>
+                    </div>
+                    
+                    <div class="pricing-card popular" data-aos="flip-left" data-aos-delay="200">
+                        <div class="popular-badge">Most Popular</div>
+                        <h3>Professional</h3>
+                        <div class="price">$599</div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 4-hour photoshoot</li>
+                            <li><i class="fas fa-check"></i> 75 edited digital images</li>
+                            <li><i class="fas fa-check"></i> Online gallery</li>
+                            <li><i class="fas fa-check"></i> Print release</li>
+                            <li><i class="fas fa-times"></i> Additional retouching</li>
+                        </ul>
+                        <button class="service-btn">Select Plan</button>
+                    </div>
+                    
+                    <div class="pricing-card" data-aos="flip-left" data-aos-delay="300">
+                        <h3>Premium</h3>
+                        <div class="price">$999</div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Full-day coverage</li>
+                            <li><i class="fas fa-check"></i> 150+ edited digital images</li>
+                            <li><i class="fas fa-check"></i> Online gallery</li>
+                            <li><i class="fas fa-check"></i> Print release</li>
+                            <li><i class="fas fa-check"></i> Premium retouching</li>
+                        </ul>
+                        <button class="service-btn">Select Plan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="services-section" data-aos="fade-up">
+                <h2>Get In Touch</h2>
+                <p>Ready to create something beautiful? Contact us today to discuss your photography needs.</p>
+                
+                <form class="floating-form" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="4" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="service-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Arts & Visuals Co.</h3>
+                    <p>A professional photography and visual arts company dedicated to capturing life's most beautiful moments with artistic vision and technical excellence.</p>
+                    <div class="social-links">
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" title="Pinterest"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#portfolio"><i class="fas fa-chevron-right"></i> Portfolio</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Visual Arts Blvd, Creative City, CC 12345</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@artsvisualsco.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Mon - Sat: 9:00 AM - 6:00 PM</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for updates, special offers, and photography tips.</p>
+                    <form style="margin-top: 15px;">
+                        <div class="input-group">
+                            <input type="email" placeholder=" " required>
+                            <label>Your email address</label>
+                        </div>
+                        <button type="submit" class="service-btn" style="width: 100%; margin: 0;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Arts & Visuals Co. All rights reserved.</p>
+                </div>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
